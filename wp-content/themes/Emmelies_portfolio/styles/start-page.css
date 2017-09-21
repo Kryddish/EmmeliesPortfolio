@@ -1,0 +1,28 @@
+@import url('stars.css');
+
+.hero {
+	height: 100vh;
+}
+
+.background_image {
+	height: 100%;
+	width: 100%;
+	top: 0;
+	position: absolute;
+	z-index: -1;
+	filter: grayscale(100%) contrast(150%);
+}
+
+.header-info {
+	position: absolute;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	width: 100%;
+	height: 80%;
+	color: white;
+	font-size: 50px;
+}
+  
+

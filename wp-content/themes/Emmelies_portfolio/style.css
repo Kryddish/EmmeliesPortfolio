@@ -1,0 +1,57 @@
+/*
+Theme Name: Emmelies Portfolio
+Author: Emmelie Sundell
+Author URI: wwww.wordpress.memlisen.se
+Version: 1.0
+*/
+
+
+@import url(./styles/start-page.css);
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: 'Lato', Arial;
+}
+
+.menu ul {
+	float: right;
+    list-style-type: none;
+    margin: 0;
+    padding: 1%;
+	overflow: hidden;
+	margin-right: 10%;
+}
+
+.menu li {
+	float: left;
+}
+
+.menu li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.menu li a{
+	font-size: 18px;
+}
+
+.menu li a:hover {
+    background-color: #B8B8B84D;
+}
+
+footer {
+	position: relative;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	padding: 1rem;
+	background-color: #efefef;
+	text-align: center;
+  }
